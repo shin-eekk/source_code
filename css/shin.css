@@ -1,21 +1,25 @@
 #green18_80683 {
-  display: center !important;
+  display: flex !important;
   flex-wrap: wrap !important;
   justify-content: center !important;
-  gap: 170px !important;
-}
-
-#green18_80683 > div.data-wrap {
-  display: flex !important;
   align-items: center !important;
-  min-height: 170px !important;
-  gap: 70px !important;
+  gap: 100px !important;
 }
-
-#green18_80683 div > .box_ {
+#green18_80683 .box_ {
   flex-grow: 0 !important;
   flex-shrink: 0 !important;
   min-height: 170px !important;
+}
+#green18_80683 .data-wrap {
   display: flex !important;
   align-items: center !important;
+  min-height: 170px !important;
+}
+#green18_80683 .data-wrap div.right-info > .cs-tel {
+  font-size: 28px;
+  font-weight: 600;
+  color: #222;
+}
+#green18_80683 .data-wrap div.right-info > .cs-tel > span {
+  display: none;
 }
